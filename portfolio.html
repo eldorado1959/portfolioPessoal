@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Font Awesome para ícones -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Pessoal</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Rogerio Fernando Machado</h1>
+    <nav>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introducao">
+      <h2>Sobre Mim</h2>
+      <p>Olá! Me chamo Rogerio F Machado, sou um desenvolvedor web apaixonado por tecnologia e inovação.
+      <p> Tenho experiência em COBOL, HTML, CSS, JavaScript e frameworks modernos.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>COBOL</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+      </ul>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="FerragemNaMao.jpg" alt="Ferragem na Mão">
+          <h3>Ferragem na Mão</h3>
+          <p>Sistema web para controle de produtos e clientes usando LocalStorage e PDF.</p>
+          <a href="https://github.com/eldorado1959/ferragemApp" target="_blank">Ver Projeto</a>
+        </div>
+        <div class="card">
+          <img src="jogo.jpg" alt="Jogo de Aventuras">
+          <h3>Jogo de Aventuras</h3>
+          <p>Jogo em Java baseado em RPG com rolagem de dados e múltiplos finais.</p>
+          <a href="https://github.com/eldorado1959/JogoDeAventura2" target="_blank">Ver Projeto</a>
+        </div>
+        <div class="card">
+          <img src="todolist.png" alt="To-Do List com Fila">
+          <h3>To-Do List com Fila</h3>
+          <p>Aplicação de lista de tarefas com estrutura de fila e controle de prioridade.</p>
+          <a href="https://github.com/eldorado1959/TrabalhoInglesQuikList" target="_blank">Ver Projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+        <p id="mensagem-sucesso">Mensagem enviada com sucesso!</p>
+        <p id="mensagem-erro">Erro ao enviar. Tente novamente.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    
+  
+    <p>&copy; 2025 Meu Portfólio</p>
+        <div class="social-links">
+          <a href="https://facebook.com/eldoradosapucaia" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com/eldoradosapucaia" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/5551999898197" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      
+
+</footer>
+</body>
+</html>

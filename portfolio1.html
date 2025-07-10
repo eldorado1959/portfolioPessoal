@@ -1,0 +1,91 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Pessoal</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Rogerio Fernando Machado</h1>
+    <nav>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introducao">
+      <h2>Sobre Mim</h2>
+      <p>Olá! me chamo Rogerio F Machado,  Sou um desenvolvedor web apaixonado por tecnologia e inovação.
+        Tenho experiência em COBOL, HTML, CSS, JavaScript e frameworks modernos.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>COBOL</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        
+        <li>Node.js</li>
+      </ul>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div id="projetos-lista" class="cards-container">
+          <div class="card">
+            <img src="FerragemNaMao.jpg" alt="Ferragem na Mão">
+            <h3>Ferragem na Mão</h3>
+            <p>Sistema web para controle de produtos e clientes usando LocalStorage e PDF.</p>
+            <a href="https://github.com/eldorado1959/ferragemApp" target="_blank">Ver Projeto</a>
+          </div>
+          <div class="card">
+            <img src="assets/jogo.png" alt="Jogo de Aventuras">
+            <h3>Jogo de Aventuras</h3>
+            <p>Jogo em Java baseado em RPG com rolagem de dados e múltiplos finais.</p>
+            <a href="https://github.com/eldorado1959/JogoDeAventura2" target="_blank">Ver Projeto</a>
+          </div>
+          <div class="card">
+            <img src="assets/todolist.png" alt="To-Do List com Fila">
+            <h3>To-Do List com Fila</h3>
+            <p>Aplicação de lista de tarefas com estrutura de fila e controle de prioridade.</p>
+            <a href="https://github.com/eldorado1959/TrabalhoInglesQuikList" target="_blank">Ver Projeto</a>
+          </div>
+        </div>
+      </section>
+      
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+        <p id="mensagem-sucesso" style="display:none;color:green;margin-top:10px;">Mensagem enviada com sucesso!</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Meu Portfólio</p>
+  </footer>
+</body>
+</html>
